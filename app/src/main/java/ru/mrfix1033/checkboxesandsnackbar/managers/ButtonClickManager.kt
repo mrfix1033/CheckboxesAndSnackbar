@@ -16,7 +16,7 @@ class ButtonClickManager(app: MainActivity) {
             findViewById<Button>(R.id.btnDeleteData).setOnClickListener {
                 Snackbar.make(it, R.string.delete_confirmation, Snackbar.LENGTH_LONG)
                     .setAction(R.string.confirmation_label) { itSnackBar ->
-                        viewsManager.tvLabel.clearComposingText()
+                        viewsManager.tvLabel.text = ""
                         Snackbar.make(
                             itSnackBar,
                             R.string.you_confirmed_delete,

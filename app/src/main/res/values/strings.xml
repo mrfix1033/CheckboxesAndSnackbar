@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CheckboxesAndSnackbar</string>
+    <string name="enter_the_text">Введите текст</string>
+    <string name="save_data">Сохранить данные</string>
+    <string name="delete_data">Удалить данные</string>
+    <string name="delete_confirmation">Вы действительно хотите удалить данные?</string>
+    <string name="confirmation_label">Да</string>
+    <string name="you_confirmed_delete">Вы подтвердили удаление</string>
+</resources>

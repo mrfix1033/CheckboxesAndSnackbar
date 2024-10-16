@@ -6,7 +6,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import ru.mrfix1033.checkboxesandsnackbar.R
 
-class Views(app: AppCompatActivity) {
+class ViewsManager(app: AppCompatActivity) {
 
     val etEnterText: EditText
     val tvLabel: TextView
